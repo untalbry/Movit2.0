@@ -1,3 +1,4 @@
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/untalbry/Movit2.0">
 <div align="center"><h1>MOVIT</h1></div>
 
 
