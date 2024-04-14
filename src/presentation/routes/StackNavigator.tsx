@@ -6,6 +6,7 @@ import { StartUp } from '../screens/StartUp.tsx';
 export type RootStackParams = {
   StartUp: undefined;
   Home: undefined;
+  Login: undefined;
 };
 
 const Stack = createStackNavigator<RootStackParams>();
@@ -15,10 +16,6 @@ export const StackNavigator = () => {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
-        headerStyle: {
-          elevation: 0,
-          shadowColor: 'transparent',
-        },
         headerTitleAlign: 'center',
       }}>
       <Stack.Screen name="StartUp" component={StartUp} />

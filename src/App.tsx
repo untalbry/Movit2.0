@@ -8,12 +8,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import 'react-native-gesture-handler';
-import { StackNavigator } from './presentation/routes/StackNavigator';
+import { BottomMenuTabs } from './presentation/routes/BottomMenuNavigator';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <StackNavigator />
+      <BottomMenuTabs />
     </NavigationContainer>
   );
 };

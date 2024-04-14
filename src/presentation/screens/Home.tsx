@@ -10,13 +10,28 @@ export const HomeScreen = () => {
       </View>
       <View style={styles.main}>
         <View>
-          <Text>Credito Disponible</Text>
-          <Text>$200</Text>
+          <Text style={{ fontSize: 18 }}>Credito Disponible</Text>
+          <Text style={{ fontSize: 60, fontWeight: 'bold' }}>$200.00</Text>
         </View>
-        <View>
-          <PrimaryButton label="Continuar Aprendizaje" onPress={() => { }} />
-          <PrimaryButton label="Solicitar Crédito" onPress={() => { }} />
-          <PrimaryButton label="Aplicar a inversión" onPress={() => { }} />
+        <View style={{ flexDirection: 'row', gap: 10, margin: 10 }}>
+          <PrimaryButton
+            label1="Continuar"
+            label2="Aprendizaje"
+            onPress={() => { }}
+          // name="home"
+          // color="#fff"
+          // size={30}
+          />
+          <PrimaryButton
+            label1="Solicitar"
+            label2="Crédito"
+            onPress={() => { }}
+          />
+          <PrimaryButton
+            label1="Aplicar a"
+            label2="inversion"
+            onPress={() => { }}
+          />
         </View>
       </View>
     </SafeAreaView>
