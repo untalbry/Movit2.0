@@ -1,5 +1,8 @@
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Stack 
+[![My Skills](https://skillicons.dev/icons?i=typescript,react)](https://skillicons.dev)
+
 
 ## Preview
 
