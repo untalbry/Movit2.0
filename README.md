@@ -1,4 +1,4 @@
-<p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=10F7CA&random=false&width=435&lines=MOVIT+" alt="Typing SVG" /> </a> </p>
+<div align="center"><h1>MOVIT</h1></div>
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
