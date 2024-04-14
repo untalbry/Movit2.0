@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, SafeAreaView, Pressable } from 'react-native';
+import { PrimaryButton } from '../components/shared/PrimaryButton';
 
 export const HomeScreen = () => {
   return (
@@ -13,16 +14,9 @@ export const HomeScreen = () => {
           <Text>$200</Text>
         </View>
         <View>
-          <Pressable>
-            <Text>Continuar Aprendizaje</Text>
-          </Pressable>
-          <Pressable>
-            <Text>Solicitar crédito</Text>
-          </Pressable>
-
-          <Pressable>
-            <Text>Aplicar a inversio</Text>
-          </Pressable>
+          <PrimaryButton label="Continuar Aprendizaje" onPress={() => { }} />
+          <PrimaryButton label="Solicitar Crédito" onPress={() => { }} />
+          <PrimaryButton label="Aplicar a inversión" onPress={() => { }} />
         </View>
       </View>
     </SafeAreaView>
