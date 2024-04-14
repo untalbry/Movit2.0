@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 
-=======
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Preview
+![943shots_so](https://github.com/untalbry/Movit2.0/assets/91161604/44ed90e7-5be1-429b-a516-284d3b0b2b81)
 
 # Getting Started
 
